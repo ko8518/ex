@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hollys Coffee</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/reset/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <!-- 공통 스타일  -->
+  <link rel="stylesheet" href="./css/default.css">
+  <!-- 인덱스페이지 스타일  -->
+  <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+  <!-- ===============스킵 메뉴=============== -->
+  <article class="skip_menu">
+    <a href="#main_menu">메뉴 보기</a>
+    <a href="#notice">게시판 보기</a>
+  </article>
+<!-- ===============팝업 윈도우=============== -->
+
+  <section class="pop_win">
+  <div class="pop_img">
+    <img src="./images/pop01.jpg" alt="팝업1">
+  </div>     
+  <div class="close_btns">
+    <ul class="clearfix">
+      <li id="close_1day">하루동안 열지않기</li>
+      <li id="close">닫기</li>
+    </ul>
+  </div>
+</section>
+
+  <!-- ===============wrap start=============== -->
+  <section class="wrap">
+    <!-- ==========헤더 시작========== -->
+    <header class="header">
+      <h1 class="logo">
+        <a href="./index.html">
+        <img src="./images/logo.png" alt="할리스커피">
+      </a>
+    </h1>
+      <div class="tgl_btn">
+        <img src="./images/btn_menu.gif" alt="nav">
+      </div>
+      <nav class="nav">
+        <ul class="main_nav">
+          <li>
+            MY HOLLYS
+            <ul class="sub_nav">
+              <li>
+                <a href="#">MY 멤버십</a>
+              </li>
+              <li>
+                <a href="#">MY 쿠폰</a>
+              </li>
+              <li>
+                <a href="#">MY 할리스카드</a>
+              </li>
+              <li>
+                <a href="#">프리퀀시</a>
+              </li>
+              <li>
+                <a href="#">레드아카데미 신청 내역</a>
+              </li>
+              <li>
+                <a href="#">회원정보 관리 및 탈퇴</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            MENU
+            <ul class="sub_nav">
+              <li>
+                <a href="#">COFFEE</a>
+              </li>
+              <li>
+                <a href="#">라떼&middot;초콜릿&middot;티</a>
+              </li>
+              <li>
+                <a href="#">할리치노&middot;빙수</a>
+              </li>
+              <li>
+                <a href="#">스파클링</a>
+              </li>
+              <li>
+                <a href="#">베이커리&middot;스낵MD</a>
+              </li>
+              <li>
+                <a href="#">MD상품</a>
+              </li>
+              <li>
+                <a href="#">MD커피</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            HOLLYS MALL
+            <ul class="sub_nav">
+              <li>
+                <a href="#">할리스콘</a>
+              </li>
+              <li>
+                <a href="#">할리스카드</a>
+              </li>
+              <li>
+                <a href="#">구매내역</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            MEMBERSHIP
+            <ul class="sub_nav">
+              <li>
+                <a href="#">스마트오더</a>
+              </li>
+              <li>
+                <a href="#">멤버십 혜택안내</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            HOLLYS NEWS
+            <ul class="sub_nav">
+              <li>
+                <a href="#">NOTICE</a>
+              </li>
+              <li>
+                <a href="#">EVENT</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            STORE
+            <ul class="sub_nav">
+              <li>
+                <a href="#">매장검색</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            HOLLYS IS
+            <ul class="sub_nav">
+              <li>
+                <a href="#">HOLLYS COFFEE</a>
+              </li>
+              <li>
+                <a href="#">할리스 위치 및 연락처</a>
+              </li>
+              <li>
+                <a href="#">가맹문의 및 절차</a>
+              </li>
+              <li>
+                <a href="#">B2B 사업소개</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ==========헤더 끝========= -->
+    
+    <!-- ==========매인배너 시작========== -->
+    <section class="main_banner">
+      <div class="slider">
+        <div class="slider01"><img src="./images/main_banner01.jpg" alt="banner01"></div>
+        <div class="slider02"><img src="./images/main_banner02.jpg" alt="banner02"></div>
+        <div class="slider03"><img src="./images/main_banner03.jpg" alt="banner03"></div>
+        <div class="slider04"><img src="./images/main_banner04.jpg" alt="banner04"></div>
+        <div class="slider05"><img src="./images/main_banner05.jpg" alt="banner05"></div>
+      </div>
+    </section>
+    <!-- ==========매인배너 끝========== -->
+    
+    <!-- ==========매인메뉴 시작========== -->
+    <section class="main_menu" id="main_menu">
+      <ul class="clearfix">
+        <li>
+          <a href="#">
+            <img src="./images/img_main_menu01.gif" alt="main menu01">
+          </a>
+          <a href="#">
+            Hollys Mall
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/img_main_menu02.gif" alt="main menu02">
+          </a>
+          <a href="#">
+            Menu
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/img_main_menu03.gif" alt="main menu03">
+          </a>
+          <a href="#">
+            Store
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/img_main_menu04.gif" alt="main menu04">
+          </a>
+          <a href="#">
+            Membership
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- ==========매인메뉴 끝========== -->
+    
+    <!-- ==========서브배너 시작========== -->
+
+    <section class="sub_banner">
+      <ul>
+        <li>
+          <a href="#">
+          <img src="./images/sub_banner01.png" alt="sub_banner01">
+        </a>
+      </li>
+        <li>
+          <a href="#">
+            <img src="./images/sub_banner02.png" alt="sub_banner02">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <img src="./images/sub_banner03.png" alt="sub_banner03">
+        </a>
+      </li>
+      </ul>
+    </section>
+
+    <!-- ==========서브배너 끝========== -->
+    
+    <!-- ==========게시판 시작========== -->
+
+    <section class="notice" id="notice">
+      <div class="notice_top clearfix">
+        <h2>Notice</h2>
+        <p class="notice_more">
+          <a href="#">more</a>
+        </p>
+      </div>
+      <div class="notice_bottom clearfix">
+        <p class="notice_tit">
+          <a href="#">홀케이크 예약 픽업 구매혜택 (쿠폰팩 3종) 사용 가능 매장 리스트</a>
+        </p>
+        <p class="notice_date">
+          <a href="#">2020-12-22</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ==========게시판 끝========== -->
+
+    <!-- ==========푸터 시작========== -->
+
+    <footer class="footer">
+      <div class="footer_top clearfix">
+        <a href="#">가맹문의 및 절차</a>
+        <a href="#">아카데미</a>
+      </div>
+      <div class="footer_mid clearfix">
+        <a href="login.html">멤버십 로그인</a>
+        <a href="#">멤버십 가입</a>
+        <a href="#">고객센터</a>
+        <a href="#">고객설문</a>
+        <a href="#">개인정보처리방침</a>
+        <a href="#">서비스 이용약관</a>
+        <a href="#">멤버십 이용약관</a>
+        <a href="#">할리스카드이용약관</a>
+        <a href="#">BI소개</a>
+        <a href="#">English</a>
+        <a href="#">PC버전</a>
+      </div>
+      <div class="footer_bottom">
+        <address>
+        <p>
+          <strong>(주)할리스애프앤비(대표자:정현욱)</strong>
+        </p>
+        <p>통신판매업 : 제2019-서울종로-0193호 대표전화 : 02-2188-7100 (가맹문의 : 02-6350-7229)</p>
+        <p>사업자등록번호 : 211-87-61044</p>
+        <p>주소 : 서울특별시 종로구 율곡로 88 삼환빌딩 8층 (운니동)</p>
+        <p>COPYRIGHT (C) HOLLYS COFFEECo., Ltd. All Rights Reserved.</p>
+        </address>
+      </div>
+    </footer>
+
+    <!-- ==========푸터 끝========== -->
+  </section>
+  <!-- ===============wrap end=============== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="./js/nav.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="/js/pop_up.js"></script>
+
+</body>
+</html>
